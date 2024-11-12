@@ -400,8 +400,8 @@
 
 .footer__column-link {
   display: flex;
-  align-items: flex-start;
-  column-gap: 16px;
+  align-items: center;
+  column-gap: 10px;
   color: white;
   text-decoration: none;
   font-size: 16px;
