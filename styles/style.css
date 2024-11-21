@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -5,7 +8,6 @@
   font-size: 16px;
   line-height: 20px;
   font-family: "arial", sans-serif;
-  /* Agrega las propiedades de la clase page aquí */
 }
 
 .header {
@@ -16,7 +18,6 @@
   max-height: 800px;
   padding: 30px 80px 40px;
   position: relative;
-  box-sizing: border-box;
   margin-bottom: 90px;
 }
 
@@ -24,7 +25,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* Agrega las propiedades flex aquí */
 }
 
 .nav__logo {
@@ -33,7 +33,6 @@
 }
 
 .nav__links {
-  /* Restablece los estilos predeterminados de list aquí */
   list-style-type: none;
   display: flex;
   column-gap: 20px;
@@ -48,7 +47,6 @@
 }
 
 .header__content {
-  /* Agrega las propiedades flex aquí */
   display: flex;
   justify-content: space-between;
   height: 100%;
@@ -84,7 +82,6 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  box-sizing: border-box;
 }
 
 .header__link {
@@ -135,13 +132,11 @@
   flex-wrap: wrap;
   gap: 40px;
 }
-/* Agrega la regla CSS para tu nueva clase aquí. Asegúrate de colocarlo antes de .card:, los padres deben preceder a sus hijos */
 
 .card {
   background-color: #fff;
   border-radius: 6px;
   padding: 32px 40px 20px 32px;
-  box-sizing: border-box;
   width: 360px;
   height: 420px;
 }
@@ -178,7 +173,6 @@
   display: flex;
   align-items: start;
   justify-content: space-between;
-  box-sizing: border-box;
   background-color: #f2f2f2;
 }
 
@@ -324,7 +318,6 @@
   flex-direction: row;
   justify-content: center;
   gap: 40px;
-  /* Agrega estilos */
 }
 
 .step {
@@ -349,7 +342,6 @@
 }
 
 .footer {
-  box-sizing: border-box;
   background-color: #1f1f1f;
   color: #fff;
   padding: 60px 80px;
@@ -386,7 +378,6 @@
 }
 
 .footer__list {
-  /* El siguiente código elimina los estilos predeterminados del navegador para las listas */
   list-style-type: none;
   padding: 0;
   margin: 0;
